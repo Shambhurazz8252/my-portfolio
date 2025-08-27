@@ -200,6 +200,7 @@ body {
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease;
+    text-decoration: none;
 }
 
 .social-media a:hover {
@@ -316,6 +317,7 @@ body {
 .contact {
     background: var(--bg-color);
     padding: 10rem 9% 4rem;
+    text-align: center;
 }
 
 .contact .heading {
@@ -328,7 +330,6 @@ body {
     max-width: 800px;
     margin: auto;
 }
-
 .input-box {
     display: flex;
     flex-wrap: wrap;
@@ -349,6 +350,28 @@ textarea {
 
 .input-box input {
     width: 48%;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--main-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: var(--main-color);
+}
+
+/* Success message  */
+.success-message {
+    margin-top: 15px;
+    color: var(--main-color);
+    color: green;
+    display: none;
 }
 
 /* Footer */

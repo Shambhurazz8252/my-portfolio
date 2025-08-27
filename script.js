@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", () => {
     // Toggle mobile menu
     const menuIcon = document.querySelector('#menu-icon');
